@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :patients
   scope :api do
     resources :doctors
     resources :appointments
